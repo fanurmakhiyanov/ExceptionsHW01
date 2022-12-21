@@ -26,7 +26,7 @@ public class Main {
                 System.out.println(item);
         }
         if (Exception) {
-            throw new NullPointerException("Ошибка! Значение массива null!");
+            throw new NullPointerException("Ошибка! Один или несколько элементов массива = null!");
         }
     }
 }
